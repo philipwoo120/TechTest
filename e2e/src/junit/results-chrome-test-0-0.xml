@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Test create the invoice from quotes" timestamp="2022-06-14T10:36:24" time="26.391" tests="1" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Test create the invoice from quotes"/>
+      <property name="capabilities" value="chrome.102_0_5005_63.windows"/>
+      <property name="file" value=".\e2e\src\tests\create-invoice\create-invoice.e2e.ts"/>
+    </properties>
+    <testcase classname="chrome.102_0_5005_63.windows.Test_create_the_invoice_from_quotes" name="Create Draft Invoice and save it" time="13.384">
+      <system-out><![CDATA[
+COMMAND: POST /session/6c74b82a20074ec33ad6f37feb86e69a/elements - {"using":"css selector","value":"button[data-automationid*=\"createInvoice\"]"}
+COMMAND: POST /session/6c74b82a20074ec33ad6f37feb86e69a/element - {"using":"css selector","value":"button[data-automationid*=\"createInvoice\"]"}
+RESULT: {}
+RESULT: {"using":"css selector","value":"button[data-automationid*=\"createInvoice\"]"}
+COMMAND: POST /session/6c74b82a20074ec33ad6f37feb86e69a/elements - {"using":"css selector","value":"button[data-automationid*=\"createInvoice\"]"}
+RESULT: {"using":"css selector","value":"button[data-automationid*=\"createInvoice\"]"}
+RESULT: {"using":"css selector","value":"button[data-automationid*=\"createInvoice\"]"}
+COMMAND: POST /session/6c74b82a20074ec33ad6f37feb86e69a/elements - {"using":"css selector","value":"button[data-automationid*=\"createInvoice\"]"}
+COMMAND: POST /session/6c74b82a20074ec33ad6f37feb86e69a/elements - {"using":"css selector","value":"button[data-automationid*=\"createInvoice\"]"}
+RESULT: {"using":"css selector","value":"button[data-automationid*=\"createInvoice\"]"}
+RESULT: {"using":"css selector","value":"button[data-automationid*=\"createInvoice\"]"}
+COMMAND: POST /session/6c74b82a20074ec33ad6f37feb86e69a/elements - {"using":"css selector","value":"button[data-automationid*=\"createInvoice\"]"}
+RESULT: {"using":"css selector","value":"button[data-automationid*=\"createInvoice\"]"}
+COMMAND: POST /session/6c74b82a20074ec33ad6f37feb86e69a/elements - {"using":"css selector","value":"button[data-automationid*=\"createInvoice\"]"}
+RESULT: {"using":"css selector","value":"button[data-automationid*=\"createInvoice\"]"}
+COMMAND: POST /session/6c74b82a20074ec33ad6f37feb86e69a/elements - {"using":"css selector","value":"button[data-automationid*=\"createInvoice\"]"}
+RESULT: {"using":"css selector","value":"button[data-automationid*=\"createInvoice\"]"}
+COMMAND: POST /session/6c74b82a20074ec33ad6f37feb86e69a/elements - {"using":"css selector","value":"button[data-automationid*=\"createInvoice\"]"}
+RESULT: {"using":"css selector","value":"button[data-automationid*=\"createInvoice\"]"}
+COMMAND: POST /session/6c74b82a20074ec33ad6f37feb86e69a/element - {"using":"css selector","value":"button[data-automationid*=\"createInvoice\"]"}
+RESULT: {"using":"css selector","value":"button[data-automationid*=\"createInvoice\"]"}
+COMMAND: POST /session/6c74b82a20074ec33ad6f37feb86e69a/element/ae97b79c-f710-4f0e-8acf-91750258052e/click - {}
+RESULT: {}
+COMMAND: POST /session/6c74b82a20074ec33ad6f37feb86e69a/element - {"using":"css selector","value":"footer button[data-automationid*=\"CreateInvoiceModal--action-delete\"]"}
+RESULT: {"using":"css selector","value":"footer button[data-automationid*=\"CreateInvoiceModal--action-delete\"]"}
+COMMAND: POST /session/6c74b82a20074ec33ad6f37feb86e69a/execute/sync - {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7762 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"ff0aa888-18b7-4a71-9a9f-18e873fc7270","ELEMENT":"ff0aa888-18b7-4a71-9a9f-18e873fc7270"}]}
+RESULT: {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7762 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"ff0aa888-18b7-4a71-9a9f-18e873fc7270","ELEMENT":"ff0aa888-18b7-4a71-9a9f-18e873fc7270"}]}
+COMMAND: POST /session/6c74b82a20074ec33ad6f37feb86e69a/execute/sync - {"script":"return (function isElementClickable(elem) {\n    if (!elem.getBoundingClientRect || !elem.scrollIntoView || !elem.contains || !elem.getClientRects || !document.elementFromPoint) {\n        return false; ... (5149 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"ff0aa888-18b7-4a71-9a9f-18e873fc7270","ELEMENT":"ff0aa888-18b7-4a71-9a9f-18e873fc7270"}]}
+RESULT: {"script":"return (function isElementClickable(elem) {\n    if (!elem.getBoundingClientRect || !elem.scrollIntoView || !elem.contains || !elem.getClientRects || !document.elementFromPoint) {\n        return false; ... (5149 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"ff0aa888-18b7-4a71-9a9f-18e873fc7270","ELEMENT":"ff0aa888-18b7-4a71-9a9f-18e873fc7270"}]}
+COMMAND: POST /session/6c74b82a20074ec33ad6f37feb86e69a/element - {"using":"css selector","value":"footer button[data-automationid*=\"CreateInvoiceModal--action-delete\"]"}
+RESULT: {"using":"css selector","value":"footer button[data-automationid*=\"CreateInvoiceModal--action-delete\"]"}
+COMMAND: POST /session/6c74b82a20074ec33ad6f37feb86e69a/element/ff0aa888-18b7-4a71-9a9f-18e873fc7270/click - {}
+RESULT: {}
+COMMAND: POST /session/6c74b82a20074ec33ad6f37feb86e69a/element - {"using":"css selector","value":"a[title*=\"Save as draft\"] span"}
+RESULT: {"using":"css selector","value":"a[title*=\"Save as draft\"] span"}
+COMMAND: POST /session/6c74b82a20074ec33ad6f37feb86e69a/execute/sync - {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7762 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"9926ff9a-309e-445b-80a4-de37fd343656","ELEMENT":"9926ff9a-309e-445b-80a4-de37fd343656"}]}
+RESULT: {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7762 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"9926ff9a-309e-445b-80a4-de37fd343656","ELEMENT":"9926ff9a-309e-445b-80a4-de37fd343656"}]}
+COMMAND: POST /session/6c74b82a20074ec33ad6f37feb86e69a/element - {"using":"css selector","value":"input[id*=\"DueDate\"]"}
+RESULT: {"using":"css selector","value":"input[id*=\"DueDate\"]"}
+COMMAND: POST /session/6c74b82a20074ec33ad6f37feb86e69a/element/95096ff7-c09c-4a87-b9f0-9ddd92f1b9a6/clear - {}
+RESULT: {}
+COMMAND: POST /session/6c74b82a20074ec33ad6f37feb86e69a/element/95096ff7-c09c-4a87-b9f0-9ddd92f1b9a6/value - {"text":"24 Jun 2022"}
+RESULT: {"text":"24 Jun 2022"}
+COMMAND: POST /session/6c74b82a20074ec33ad6f37feb86e69a/element - {"using":"css selector","value":"a[title*=\"Save as draft\"] span"}
+RESULT: {"using":"css selector","value":"a[title*=\"Save as draft\"] span"}
+COMMAND: POST /session/6c74b82a20074ec33ad6f37feb86e69a/element/9926ff9a-309e-445b-80a4-de37fd343656/click - {}
+RESULT: {}
+COMMAND: POST /session/6c74b82a20074ec33ad6f37feb86e69a/element - {"using":"css selector","value":"div[id*=\"notify\"] div.message p[id*=\"gen\"]"}
+RESULT: {"using":"css selector","value":"div[id*=\"notify\"] div.message p[id*=\"gen\"]"}
+COMMAND: POST /session/6c74b82a20074ec33ad6f37feb86e69a/elements - {"using":"css selector","value":"div[id*=\"notify\"] div.message p[id*=\"gen\"]"}
+RESULT: {"using":"css selector","value":"div[id*=\"notify\"] div.message p[id*=\"gen\"]"}
+COMMAND: POST /session/6c74b82a20074ec33ad6f37feb86e69a/elements - {"using":"css selector","value":"div[id*=\"notify\"] div.message p[id*=\"gen\"]"}
+RESULT: {"using":"css selector","value":"div[id*=\"notify\"] div.message p[id*=\"gen\"]"}
+COMMAND: POST /session/6c74b82a20074ec33ad6f37feb86e69a/element - {"using":"css selector","value":"div[id*=\"notify\"] div.message p[id*=\"gen\"]"}
+RESULT: {"using":"css selector","value":"div[id*=\"notify\"] div.message p[id*=\"gen\"]"}
+COMMAND: GET /session/6c74b82a20074ec33ad6f37feb86e69a/element/febf8fdc-3cb4-4b4b-866f-bca1893e7a3a/text - {}
+RESULT: {}
+COMMAND: DELETE /session/6c74b82a20074ec33ad6f37feb86e69a - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,45 @@
+{
+  "name": "xero-trail",
+  "version": "0.0.0",
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve --open",
+    "build": "ng build",
+    "test": "ng test",
+    "test:single-run": "ng test --watch=false",
+    "lint:check": "ng lint",
+    "lint:fix": "ng lint --fix",
+    "e2e": "env TS_NODE_PROJECT=./e2e/src/tsconfig.json wdio run ./e2e/src/wdio.conf.js",
+    "format:check": "prettier --config ./.prettierrc --list-different \"src/{app,environments,assets}/**/*{.ts,.js,.json,.css,.scss}\"",
+    "format:fix": "prettier --config ./.prettierrc --write \"src/{app,environments,assets}/**/*{.ts,.js,.json,.css,.scss}\"",
+    "genpage": "node ./scripts/generatePage",
+    "postgenpage": "ng lint --fix"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "run-s test:single-run format:fix format:check lint:fix lint:check"
+    }
+  },
+  "private": true,
+  "dependencies": {
+  },
+  "devDependencies": {
+    "@angular/compiler-cli": "^8.0.3",
+    "@types/jasmine": "~2.8.8",
+    "@types/node": "~8.9.4",
+    "@wdio/cli": "^7.20.1",
+    "@wdio/devtools-service": "^7.20.1",
+    "@wdio/jasmine-framework": "^7.20.0",
+    "@wdio/junit-reporter": "^7.20.0",
+    "@wdio/local-runner": "^7.20.1",
+    "@wdio/selenium-standalone-service": "^7.20.1",
+    "@wdio/spec-reporter": "^7.20.0",
+    "codelyzer": "^5.2.0",
+    "dotenv": "^16.0.1",
+    "ts-node": "~7.0.0",
+    "tsconfig-paths": "^4.0.0",
+    "tslint": "~5.11.0",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "~3.4.5"
+  }
+}

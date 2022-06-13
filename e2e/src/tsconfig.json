@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "outDir": "../out-tsc/e2e",
+    "module": "commonjs",
+    "target": "es2018",
+    "lib": ["es2017"],
+    "esModuleInterop": true,
+    "types": [
+      "node",
+      "webdriverio/async",
+      "@wdio/jasmine-framework"
+    ],
+    "paths": {
+      "@config/*": [
+        "./config/*"
+      ],
+      "@const/*": [
+        "./constants/*"
+      ],
+      "@services/*": [
+        "./services/*"
+      ],
+      "@pages/*": [
+        "./pages/*"
+      ],
+      "@type/*": [
+        "./types/*"
+      ]
+    }
+  }
+}
